@@ -127,10 +127,10 @@ document.addEventListener("keydown", (e) => {
 });
 
 // Different Users
-const userSocket = io("http://localhost:3011/user", {
-  auth: { token: "test" },
-});
+//const userSocket = io("http://localhost:3011/user", {
+//  auth: { token: "test" },
+//});
 
-userSocket.on("connect_error", (err) => {
-  displayMessage(`connect_error due to ${err.message}`);
-});
+//userSocket.on("connect_error", (err) => {
+//  displayMessage(`connect_error due to ${err.message}`);
+//});
